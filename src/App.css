@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+  margin: 0; 
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flex-1 {
+  flex: 1; /* Assegura que esta parte do layout ocupe o espaço restante */
+  overflow: auto; /* Permite a rolagem aqui */
+}
+
+.flex {
+  display: flex;
+}
+
+/* Você pode adicionar outras estilizações aqui conforme necessário */
